@@ -2,6 +2,39 @@
 
 A comprehensive full-stack AI chatbot application with user authentication, real-time chat, document/image sharing, and voice chat capabilities.
 
+## ⚡ Quick Start
+
+> **New to this project?** Follow these steps to get up and running in 5 minutes!
+
+### For Windows Users:
+```bash
+# Double-click START.bat in the project folder
+# Or run in terminal:
+START.bat
+```
+
+### For Mac/Linux Users:
+```bash
+# Install dependencies
+npm install
+npm run install-all
+
+# Terminal 1 - Start Backend
+npm run dev
+
+# Terminal 2 - Start Frontend (in a new terminal)
+npm run client
+```
+
+Then open your browser to: **http://localhost:3000**
+
+### First Time Setup:
+1. Click "Sign up" on the login page
+2. Create an account (any credentials work locally)
+3. Start chatting!
+
+> 📖 For detailed setup instructions, see [SETUP_AND_RUN.md](./SETUP_AND_RUN.md)
+
 ## Features
 
 ### Authentication & User Management

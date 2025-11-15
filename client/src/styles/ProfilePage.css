@@ -1,0 +1,65 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--bg-light);
+  padding: 20px;
+}
+
+.profile-box {
+  background: var(--bg-light);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid var(--border);
+}
+
+.profile-box h1 {
+  color: var(--text-light);
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.profile-box select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.profile-box select:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.button-group button {
+  flex: 1;
+}
+
+.logout-section {
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.error-message {
+  background-color: #fee;
+  color: #c33;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
